@@ -1,4 +1,4 @@
-package com.hillel.shevchenko.HomeWork4;
+package com.hillel.shevchenko.HomeWork5;
 
 public class WarInChina {
     public static void main(String[] args) {
