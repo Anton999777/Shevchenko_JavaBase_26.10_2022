@@ -16,9 +16,10 @@ public class Main {
 
         while (numberOfAttempts >= 0) {
             if (numberOfAttempts == 0) {
-                System.out.println("You lost :( computer number " + random + " and your number " + numberUser);
+                System.out.println("You lost :( computer number = " + random + " and your number = " + numberUser);
                 break;
             } numberOfAttempts--;
+
             if (scanner.hasNextInt()) {
                 numberUser = scanner.nextInt();
                 System.out.println(numberUser);
