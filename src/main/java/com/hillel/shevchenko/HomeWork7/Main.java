@@ -23,9 +23,16 @@ public class Main {
             if (scanner.hasNextInt()) {
                 numberUser = scanner.nextInt();
                 System.out.println(numberUser);
+
                 if (random < numberUser) {
+                    if (numberOfAttempts == 0) {
+                        continue;
+                    }
                     System.out.println("Try again, your number is more than mystical");
                 } else if (random > numberUser) {
+                    if (numberOfAttempts == 0) {
+                        continue;
+                    }
                     System.out.println("Try again, your number is less than mystical");
                 } else {
                     System.out.println("YOU WIN!!!");
