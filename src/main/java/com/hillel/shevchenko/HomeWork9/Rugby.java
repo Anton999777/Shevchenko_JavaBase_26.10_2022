@@ -42,8 +42,6 @@ public class Rugby {
         double avgAge2 = (double) value2 / team2.length;
         System.out.println("Середній вік team2 = " + avgAge2);
 
-
-
         }
     }
 
