@@ -34,7 +34,7 @@ public class Lottery {
         for (int i = 0; i < organizer.length; i++) {
             if (organizer[i] == player[i]) {
                 coincidences++;
-                System.out.println("Елементи збіглися у комірках = " + i + ", " + i );
+                System.out.println("Елементи збіглися у комірках = " + i);
             }
         }
         System.out.println("Кількість збігів = " + coincidences);
