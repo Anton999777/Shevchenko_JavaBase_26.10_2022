@@ -7,7 +7,14 @@ public class Main {
         int badnumb2 = 9;
         int counter = 0;
 
-        for (int i = 1; i <= 100; i++) {
+        for (int i = 1; i <= 155; i++) {
+            if (i > 99) {
+                if (i / 10 % 10 == badnumb1 || i % 10 == badnumb1) {
+                    continue;
+                } else if (i / 10 % 10 == badnumb2 || i % 10 == badnumb2) {
+                    continue;
+                }
+            }
 
             if (i / 10 == badnumb1 || i % 10 == badnumb1) {
                 continue;
@@ -19,6 +26,8 @@ public class Main {
         }
 
         System.out.println("counter shuttle = " + counter);
+
+
     }
     }
 
