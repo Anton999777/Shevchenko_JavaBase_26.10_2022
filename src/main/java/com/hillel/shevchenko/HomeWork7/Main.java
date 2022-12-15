@@ -40,6 +40,7 @@ public class Main {
                 }
             } else {
                 System.out.println("Wrong data! Try again");
+                numberOfAttempts++;
                 scanner.nextLine();
             }
         }
