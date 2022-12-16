@@ -13,13 +13,13 @@ public class CounterStrike {
         System.out.println(team1name);
 
         System.out.println("Ввести кількість фрагів для 5-ти гравців першої команди");
-        int player1Navi = scanner.nextInt();
-        int player2Navi = scanner.nextInt();
-        int player3Navi = scanner.nextInt();
-        int player4Navi = scanner.nextInt();
-        int player5Navi = scanner.nextInt();
+        double player1Navi = scanner.nextInt();
+        double player2Navi = scanner.nextInt();
+        double player3Navi = scanner.nextInt();
+        double player4Navi = scanner.nextInt();
+        double player5Navi = scanner.nextInt();
 
-        double avgFragsTeam1 = ((player1Navi + player2Navi + player3Navi + player4Navi + player5Navi) / 5);
+        double avgFragsTeam1 = (player1Navi + player2Navi + player3Navi + player4Navi + player5Navi) / 5.0;
 
         System.out.println("Середнє арифметичне балів першої команди = " + avgFragsTeam1);
         scanner.nextLine();
@@ -34,7 +34,7 @@ public class CounterStrike {
         int plr4Astralis = scanner.nextInt();
         int plr5Astralis = scanner.nextInt();
 
-        double avgFragsTeam2 = ((plr1Astralis + plr2Astralis + plr3Astralis + plr4Astralis + plr5Astralis) / 5);
+        double avgFragsTeam2 = ((plr1Astralis + plr2Astralis + plr3Astralis + plr4Astralis + plr5Astralis) / 5.0);
 
         System.out.println("Середнє арифметичне балів другої команди = " + avgFragsTeam2);
 
