@@ -10,9 +10,9 @@ public class Person {
     }
 
     static String personInfo (String name, String surname, String city, String phoneNumber) {
-        String a = "Зателефонувати громадянинові " + name + " " + surname + " із міста " + city +
+
+        return "Зателефонувати громадянинові " + name + " " + surname + " із міста " + city +
                 " можна за номером " + phoneNumber;
-        return a;
     }
 //        System.out.println("Зателефонувати громадянинові " + name + " " + surname + " із міста " + city +
 //                " можна за номером " + phoneNumber)
