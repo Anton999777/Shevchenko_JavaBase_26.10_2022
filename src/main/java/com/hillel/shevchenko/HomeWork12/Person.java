@@ -10,7 +10,6 @@ public class Person {
     }
 
     static String personInfo (String name, String surname, String city, String phoneNumber) {
-
         return "Зателефонувати громадянинові " + name + " " + surname + " із міста " + city +
                 " можна за номером " + phoneNumber;
     }

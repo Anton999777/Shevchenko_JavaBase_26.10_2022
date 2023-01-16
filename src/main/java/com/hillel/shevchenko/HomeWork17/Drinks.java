@@ -70,10 +70,6 @@ public class Drinks {
                     break;
                 }
             }
-            if (userChoice.equals(DrinksMachine.EXIT)) {
-                System.out.println("total amount due: " + amountOfMoney + "\u0024");
-                break;
-            }
 
             switch (userChoice) {
                 case COFFEE: {
@@ -113,7 +109,10 @@ public class Drinks {
                     break;
                 }
             }
-
+            if (userChoice.equals(DrinksMachine.EXIT)) {
+                System.out.println("total amount due: " + amountOfMoney + "\u0024");
+                break;
+            }
         }
     }
 

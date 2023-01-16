@@ -9,7 +9,5 @@ public class Main {
 
         Drinks.runApp();
         System.out.println("number of drinks: " + DrinksCounter.getCounter());
-
     }
-
 }
